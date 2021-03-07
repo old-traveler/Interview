@@ -19,4 +19,7 @@ https://juejin.cn/post/6888688477714841608#heading-19
 ## UI绘制原理
 https://www.jianshu.com/p/d3be5def8398
 
+## 事件分发
+https://www.jianshu.com/p/238d1b753e64
 
+## 嵌套滑动
