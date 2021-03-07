@@ -1,0 +1,10 @@
+## Object中的方法
+getClass
+hashCode
+clone
+toString
+equals
+finalize
+wait
+notify
+notifyAll
