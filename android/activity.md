@@ -8,3 +8,8 @@ https://www.jianshu.com/p/6d9d830a758d
 打开属于其他Activity的Dialog生命周期会回调onPause
 A打开B A onPause、B onCreate 、 B onStart、 B onResume、 A onStop
 
+## 如何判断App在前台还是后台
+Lifec1、ActivityLifecycleCallback onActivityStart & onActivityStop
+ActivityManager getRunningAppProcesses 判断是否有当前包名的进程 5.0以前
+
+
