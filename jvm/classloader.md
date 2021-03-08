@@ -7,6 +7,11 @@ Thread ContextClassLoader
 https://blog.csdn.net/briblue/article/details/54973413
 
 ## Android DexClassLoader机制
+https://juejin.cn/post/6844903929562529800
+补充：
+PathDexClassLoader和DexClassLoader的区别：
+两者都是继承BaseDexClassLoader
+先放结论，PathClassLoader 和 DexClassLoader 都能加载外部的 dex／apk，只不过区别是 DexClassLoader 可以指定 optimizedDirectory，也就是 dex2oat 的产物 .odex 存放的位置，而 PathClassLoader 只能使用系统默认位置（data/dalvik-cache/）。但是这个 optimizedDirectory 在 Android 8.0 以后也被舍弃了，只能使用系统默认的位置了(同级目录/oat/.odex)。
 
 ## Class文件加载过程
 https://zhuanlan.zhihu.com/p/25228545
