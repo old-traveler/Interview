@@ -24,3 +24,7 @@ notifyAll
 
 final本身并不是jvm中的字节码指令，只是用于javac中的编译检查，被标记后再修改会在编译时报错。
 基础类型变量被final修饰，会直接使用固定值而不使用本地变量表，引用类型被final修饰仅用于编译插件，字节码上无差异
+
+## 内部类的作用
+封装、多重继承
+https://blog.csdn.net/dingyahui123/article/details/68490982
