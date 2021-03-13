@@ -13,3 +13,6 @@ Lifec1、ActivityLifecycleCallback onActivityStart & onActivityStop
 ActivityManager getRunningAppProcesses 判断是否有当前包名的进程 5.0以前
 
 
+## Handler post和postDelay的原理
+https://www.jianshu.com/p/44b322dfc040
+
