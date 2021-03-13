@@ -30,4 +30,13 @@ ObjectMonitor结构
 * ObjectWaiter * volatile _WaitSet; // 调用wait方法后等待的ObjectWaiter链表
 * volatile int _WaitSetLock;        // 操作WaitSet链表的锁
 
+## volatile
+禁止指令重排
+读可见性（每次从主内存刷新，修改时刷新主内存）
+
+指令重排：
+
+https://www.cnblogs.com/xdecode/p/8948277.html
+
+只会对独立的指令进行重排，存在依赖关系的指令不会重排，指令重排的目的是为了减少因为依赖所导致的空闲等待
 
