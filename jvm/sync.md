@@ -34,6 +34,12 @@ ObjectMonitor结构
 禁止指令重排
 读可见性（每次从主内存刷新，修改时刷新主内存）
 
+## 公平锁和非公平锁的区别
+
+结构应该还是链表构成的队列，每次都是从队列中出队，不会遍历都唤醒，不公平的原因是，当队列中有排队的线程时，新线程过来，不会先排队，而是直接去申请锁，拿不到锁的时候才会去排队，这样就不公平，公平应该先排队。之前的理解上出问题了
+
+https://mp.weixin.qq.com/s?__biz=MjM5NjQ5MTI5OA==&mid=2651749434&idx=3&sn=5ffa63ad47fe166f2f1a9f604ed10091&chksm=bd12a5778a652c61509d9e718ab086ff27ad8768586ea9b38c3dcf9e017a8e49bcae3df9bcc8&scene=38#wechat_redirect
+
 指令重排：
 
 https://www.cnblogs.com/xdecode/p/8948277.html
