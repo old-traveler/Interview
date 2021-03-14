@@ -46,3 +46,6 @@ https://www.cnblogs.com/xdecode/p/8948277.html
 
 只会对独立的指令进行重排，存在依赖关系的指令不会重排，指令重排的目的是为了减少因为依赖所导致的空闲等待
 
+## ReentrantLock和AQS的原理
+https://tech.meituan.com/2019/12/05/aqs-theory-and-apply.html
+
