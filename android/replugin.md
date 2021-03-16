@@ -9,3 +9,6 @@ https://www.jianshu.com/p/504dd5dc4668
 ## 插件化
 
 https://zhuanlan.zhihu.com/p/33017826
+
+## 解决插件资源冲突
+https://cloud.tencent.com/developer/article/1514102
