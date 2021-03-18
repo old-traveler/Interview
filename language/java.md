@@ -28,3 +28,8 @@ final本身并不是jvm中的字节码指令，只是用于javac中的编译检�
 ## 内部类的作用
 封装、多重继承
 https://blog.csdn.net/dingyahui123/article/details/68490982
+
+* 内部类和外部类为什么可以访问对方的私有变量
+会生成一个静态方法供获取
+
+https://www.zhihu.com/question/54730071
