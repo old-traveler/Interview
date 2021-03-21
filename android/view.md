@@ -3,7 +3,13 @@ https://zhuanlan.zhihu.com/p/108022695
 通过Choreographer的postFrameCallback
 
 ## requestLayout和invalidate区别
-https://www.jianshu.com/p/5ec0f278e0a3
+* requestLayout 会触发当前节点和其上父节点调用onMeasure和onLayout（可能会触发onDraw方法）
+* invalidate（硬件加速）只触发当前节点的onDraw
+* invalidate（非硬件加速）触发当前View的子树以及parent路径节点的onDraw
+
+
+
+https://www.jianshu.com/p/b6437e4b81ac
 
 ## RecyclerView的缓存机制
 https://www.jianshu.com/p/3e9aa4bdaefd
